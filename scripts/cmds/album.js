@@ -106,9 +106,9 @@ module.exports = {
     form.append("fileToUpload", fs.createReadStream(videoPath));
 
     try {
-      const res = await axios.post("https://catbox.moe/user/api.php", form, {
+      const res = await axios.post("https://catbox.moe/user/api.php", form, { 
         headers: form.getHeaders(),
-        timeout: 30000
+        timeout: 30000 
       });
       return res.data.trim();
     } finally {
@@ -148,24 +148,24 @@ module.exports = {
     const page = parseInt(args[0]) || 1;
     const totalPages = Math.ceil(displayNames.length / itemsPerPage);
 
-    if (page < 1 || page > totalPages)
+    if (page < 1 || page > totalPages) 
       return message.reply("❌ Invalid page number!");
 
     const startIndex = (page - 1) * itemsPerPage;
     const categoriesToShow = displayNames.slice(startIndex, startIndex + itemsPerPage);
 
-    let text = "𐙚𐙚\n";
+    let text = "𐙚━━━━━━━━━━━━━━𐙚\n";
     text += "🎀𝐀𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐀𝐥𝐛𝐮𝐦 𝐕𝐢𝐝𝐞𝐨🎀\n";
-    text += "𐙚𐙚\n\n";
+    text += "𐙚━━━━━━━━━━━━━━𐙚\n\n";
 
     categoriesToShow.forEach((cat, i) => {
       text += ` ➥${startIndex + i + 1}. ${cat}\n`;
     });
 
-    text += "𐙚𐙚\n";
+    text += "𐙚━━━━━━━━━━━━━━𐙚\n";
     text += `📄 𝐏𝐚𝐠𝐞: ${page}/${totalPages}\n`;
     text += "💬 𝐑𝐞𝐩𝐥𝐲 𝐰𝐢𝐭𝐡 𝐚 𝐧𝐮𝐦𝐛𝐞𝐫 𝐭𝐨 𝐠𝐞𝐭 𝐚 𝐯𝐢𝐝𝐞𝐨 🐱\n";
-    text += "𐙚𐙚";
+    text += "𐙚━━━━━━━━━━━━━━𐙚";
 
     const sent = await message.reply(text);
 
