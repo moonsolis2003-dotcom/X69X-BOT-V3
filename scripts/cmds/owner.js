@@ -5,7 +5,7 @@ module.exports = {
   config: {
     name: "owner",
     version: "0.0.7",
-    author: "Azadx69x",
+    author: "J So Lis",
     category: "owner",
     guide: { en: "view owner info." },
     usePrefix: true
@@ -20,14 +20,14 @@ module.exports = {
     this.sentThreads.set(threadID, true);
 
     const ownerInfo = {
-      name: "𝐦𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐚𝐳𝐚𝐝",
-      nick: "𝐚𝐳𝐚𝐝𝐱𝟔𝟗𝐱",
-      age: "𝟏𝟖",
-      gender: "𝐌𝐚𝐥𝐞",
-      from: "𝐁𝐡𝐨𝐥𝐚,𝐁𝐚𝐧𝐠𝐥𝐚𝐝𝐞𝐬𝐡",
-      religion: "𝐈𝐬𝐥𝐚𝐦",
-      status: "𝐒𝐢𝐧𝐠𝐥𝐞",
-      dream: "😛 𝐛𝐨𝐮",
+      name: "Moon Solis",
+      nick: "J So Lis",
+      age: "23",
+      gender: "Male",
+      from: "Murcia, Philippines",
+      religion: "Christian",
+      status: "Secret",
+      dream: "rich",
       hobby: "𝐆𝐚𝐦𝐢𝐧𝐠,𝐜𝐨𝐝𝐢𝐧𝐠",
     };
 
