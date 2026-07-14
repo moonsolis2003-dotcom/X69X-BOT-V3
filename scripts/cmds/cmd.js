@@ -28,7 +28,7 @@ module.exports = {
         config: {
                 name: "cmd",
                 version: "1.17",
-                author: "NTKhang |Azadx69x",
+                author: "J So Lis",
                 countDown: 5,
                 role: 4,
                 description: {
@@ -99,8 +99,8 @@ module.exports = {
                 if (!args[0] || args[0].toLowerCase() === "help") {
                         return message.reply(
                                 "\n" +
-                                "🚀 𝐗𝟔𝟗𝐗 𝐁𝐎𝐓 - 𝐂𝐌𝐃 𝐌𝐀𝐍𝐀𝐆𝐄𝐑\n\n" +
-                                "📋 𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒:\n\n" +
+                                "🚀 J So Lis - CMD MANAGER\n\n" +
+                                "📋 AVAILABLE COMMANDS:\n\n" +
                                 "• load <command>\n" +
                                 " ↳ Load a single command\n\n" +
                                 "• loadAll\n" +
@@ -111,7 +111,7 @@ module.exports = {
                                 " ↳ Install from URL\n\n" +
                                 "• install <filename.js> <code>\n" +
                                 " ↳ Install from code\n\n" +
-                                "💡 𝐄𝐗𝐀𝐌𝐏𝐋𝐄𝐒:\n" +
+                                "💡 EXAMPLE:\n" +
                                 "• cmd load admin\n" +
                                 "• cmd install admin.js code\n" +
                                 "• cmd unload admin\n" +
