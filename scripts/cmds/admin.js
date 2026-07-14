@@ -6,7 +6,7 @@ module.exports = {
         name: "admin",
         aliases: ["ad"],
         version: "0.0.7",
-        author: "Azadx69x",
+        author: "J So Lis",
         countDown: 5,
         role: 4,
         shortDescription: { en: "Add, remove or view the admin list" },
