@@ -167,9 +167,9 @@ ${usage.split('\n').map(line => `┋➥ ${line}`).join('\n')}
     }
 
     msg += `┍━━━[ 🚀 ${toBold("INFO")} ]━━━◊
-┋➥ ${toBold("Welcome to X69X Bot!")}
+┋➥ ${toBold("Welcome to Ali Chatbot!")}
 ┋➥ ${toBold("Prefix")}: [ ${prefix} ]
-┋➥ ${toBold("Developer")}: Azadx69x
+┋➥ ${toBold("Developer")}: Alichatbot
 ┋➥ ${toBold("Use")}: ${prefix}help <command>
 ┕━━━━━━━━━━━━━━━━◊`;
 
