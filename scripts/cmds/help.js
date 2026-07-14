@@ -58,7 +58,7 @@ module.exports = {
   config: {
     name: "help",
     version: "0.0.7",
-    author: "Azadx69x",
+    author: "J So Lis",
     role: 0,
     countDown: 5,
     description: { 
@@ -103,7 +103,7 @@ module.exports = {
         cfg.aliases.map(a => `${prefix}${a}`).join(", ") : 
         "❌ 𝗡𝗼𝗻𝗲";
 
-      const helpMessage = `┍━━━[ 📚 ${toBold("X69X HELP")} ]━━━◊
+      const helpMessage = `┍━━━[ 📚 ${toBold("Ali HELP")} ]━━━◊
 ┋➥ 📛 ${toBold("Name")}: ${prefix}${cfg.name}
 ┋➥ 🗂️ ${toBold("Category")}: ${getCategoryEmoji(cfg.category)} ${cfg.category || "❌ 𝗨𝗻𝗰𝗮𝘁𝗲𝗴𝗼𝗿𝗶𝘇𝗲𝗱"}
 ┋➥ 📄 ${toBold("Description")}: ${desc}
@@ -141,7 +141,7 @@ ${usage.split('\n').map(line => `┋➥ ${line}`).join('\n')}
       categories[cat].push(c.config.name);
     }
 
-    let msg = `┍━━━[ 📚 ${toBold("X69X MENU")} ]━━━◊\n`;
+    let msg = `┍━━━[ 📚 ${toBold("Ali MENU")} ]━━━◊\n`;
 
     const sortedCategories = Object.keys(categories).sort();
 
@@ -169,7 +169,7 @@ ${usage.split('\n').map(line => `┋➥ ${line}`).join('\n')}
     msg += `┍━━━[ 🚀 ${toBold("INFO")} ]━━━◊
 ┋➥ ${toBold("Welcome to X69X Bot!")}
 ┋➥ ${toBold("Prefix")}: [ ${prefix} ]
-┋➥ ${toBold("Developer")}: Azadx69x
+┋➥ ${toBold("Developer")}: J So Lis
 ┋➥ ${toBold("Use")}: ${prefix}help <command>
 ┕━━━━━━━━━━━━━━━━◊`;
 
